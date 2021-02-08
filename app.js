@@ -11,7 +11,6 @@ const colors = [
     "linear-gradient(to right top, #09a124, #7c8d00, #b46f00, #d9441d, #e2005d, #d6007d, #ba009f, #871bc1, #7424c4, #5e2bc6, #4230c8, #0a34c9)"
 ]
 document.addEventListener('keypress', (e) =>{
-
         var bubbles = document.createElement('div');
         visual.appendChild(bubbles);
         bubbles.innerHTML = e.key;
